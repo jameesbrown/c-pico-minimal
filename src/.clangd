@@ -1,0 +1,15 @@
+CompileFlags:
+  Remove: [.*]
+  Add: [
+    --target=arm-none-eabi,
+    -I../include/,
+    -Os,
+    -ffreestanding,
+    -nostdlib,
+    -nostartfiles,
+    -march=armv6-m,
+    -mthumb,
+    -Wall,
+    -Wextra,
+    -Werror
+  ]

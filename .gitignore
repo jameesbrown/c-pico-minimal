@@ -1,0 +1,16 @@
+.DS_Store
+.cache*
+*.bin
+*.elf
+*.map
+*.uf2
+*.txt
+*.o
+build/*
+tools/*
+!tools/*.c
+!tools/elf.h
+a.out
+bin2uf2_pico
+compile_commands.json
+
